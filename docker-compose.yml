@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  api:
+    image: ${DOCKER_REGISTRY-}api
+    build:
+      context: .
+      dockerfile: ActivitiesApp/Dockerfile
+    depends_on:
+     - "postgres"
+
+  postgres:
+      container_name: 'postgres'
+      image: postgres
+      environment:
+        POSTGRES_PASSWORD: password
