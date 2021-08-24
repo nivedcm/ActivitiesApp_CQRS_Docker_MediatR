@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D16E6507-3F5C-4E41-B0FF-6234238703B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5928513C-F7B6-40F1-AAC6-B8F904EDC758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Activity", "Activity", "{596BADD1-7A5A-4355-9705-9789193DBB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF2BD512-3E42-4976-ACD1-6673A0665FAE} = {596BADD1-7A5A-4355-9705-9789193DBB4E}
+		{5E4DB988-1152-4DE2-89AD-E01613C59C63} = {596BADD1-7A5A-4355-9705-9789193DBB4E}
+		{BE5762A9-5796-4B4B-A17C-6D2D44024C0B} = {596BADD1-7A5A-4355-9705-9789193DBB4E}
+		{470D52AD-2E42-4E3A-8395-6FC91E408D11} = {596BADD1-7A5A-4355-9705-9789193DBB4E}
+		{596BADD1-7A5A-4355-9705-9789193DBB4E} = {5928513C-F7B6-40F1-AAC6-B8F904EDC758}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FB06531-4306-4BBF-96C4-E144A91087EC}
